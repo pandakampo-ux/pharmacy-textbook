@@ -1,0 +1,25 @@
+
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - career-design.pdf
+
+website:
+  title: "薬学オンライン教材"
+
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - text: "ホーム"
+        href: index.qmd
+      - text: "教材一覧"
+        href: materials.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+lang: ja
